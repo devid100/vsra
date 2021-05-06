@@ -872,7 +872,7 @@ end
 if DevSoFi(msg) then
 local bl = ' ✤ اهلا عزيزي آلمـطـور\n ✤ آنت آلمـطـور آلآسـآسـي للبوت\n┉  ┉  ┉  ┉  ┉  ┉  ┉  ┉ء\n ✤ تسـتطـيع‌‏ آلتحگم باوامر البوت\n ✤ من خلاال الكيبورت خاص بك\n ✤ قناة سورس البوت [اضغط هنا](t.me/A_V_I_R_A_1)'
 local keyboard = {
-{'باندا مبرمج السورس'},
+{'ديفيد مبرمج السورس'},
 {'قناه السورس','بوت تواصل'},
 {'اضف رد عام','حذف رد عام'},
 {'اضف رد متعدد','حذف رد متعدد'},
@@ -1086,14 +1086,14 @@ if text == 'الاصدار ' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 send(msg.chat_id_, msg.id_,' ✤ اصدار سورس افايره \n ✤ الاصدار ⤶{ v 1.5}')
 end
-if text == 'باندا مبرمج السورس' and DevSoFi(msg) then
+if text == 'ديفيد مبرمج السورس' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-[DEV BANDA](t.me/U880p)
+[DEV BANDA](t.me/de_vi_d)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯', url="t.me/U880p"}}, 
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯', url="t.me/de_vi_d"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -1113,7 +1113,7 @@ end
 if text == 'بوت تواصل' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-[TWL](t.me/U880p25BOT)
+[TWL](t.me/de_vi_d25BOT)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
@@ -2686,13 +2686,12 @@ end,nil)
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 local Text = [[
-🇨🇵 سورس افايره بلص🇫🇷
-اتبع الازرار إلى تحت ⬇️
-لدخول لحسابات السورس ⬇️
+W𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚜𝚘𝚞𝚛𝚌𝚎 𝚊𝚟𝚕𝚛𝚊 ⶄ
+𝚝𝚑𝚎 𝚋𝚎𝚜𝚝 𝚜𝚘𝚞𝚛𝚌𝚎 𝚘𝚗 𝚝𝚎𝚕𝚎𝚐𝚛𝚊𝚖 ༗⬇
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/U880p"}},
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/de_vi_d"}},
 {{text = '⌯｟SＯＵＲＣＥ🇨🇵｠⌯', url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
@@ -2705,22 +2704,22 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/U880p"}},
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/de_vi_d"}},
 {{text = '⌯｟TＷＡＳＯＬ🇨🇵｠⌯',url="t.me/uu_ban25BOT"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
-if text == 'باندا' or text == 'Banda' or text == 'banda' then
+if text == 'ديفيد' or text == 'Banda' or text == 'banda' then
 local Text = [[
-المبرمج باندا لو حابب تتواصل معاه
+المبرمج ديفيد لو حابب تتواصل معاه
 اتبع الزر إلى تحت ⬇️
 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/U880p"}},
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/de_vi_d"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2750,7 +2749,7 @@ local TWEET_Msg = {
 "روايتك المفضله ?", 
 "اخر اكله اكلتها", 
 "اخر كتاب قرآته", 
-"ليه باندا جدع؟ ", 
+"ليه ديفيد جدع؟ ", 
 "افضل يوم ف حياتك", 
 "ليه مضيفتش كل جهاتك", 
 "حكمتك ف الحياه", 
@@ -2853,7 +2852,7 @@ https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. 
 end
 if text == 'بوت التواصل' then
 local Text = [[ 
-[TWL](t.me/U880p25BOT)
+[TWL](t.me/de_vi_d25BOT)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
@@ -2865,11 +2864,11 @@ end
 
 if text == 'مبرمج السورس' then
 local Text = [[ 
-[BANDA](t.me/U880p)
+[BANDA](t.me/de_vi_d)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯', url="t.me/U880p"}}, 
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯', url="t.me/de_vi_d"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
