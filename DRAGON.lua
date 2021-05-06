@@ -1089,11 +1089,11 @@ end
 if text == 'ديفيد مبرمج السورس' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-[DEV BANDA](t.me/de_vi_d)
+[DEV BANDA](t.me/U880p)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯', url="t.me/de_vi_d"}}, 
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯', url="t.me/U880p"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -1113,7 +1113,7 @@ end
 if text == 'بوت تواصل' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-[TWL](t.me/de_vi_d25BOT)
+[TWL](t.me/U880p25BOT)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
@@ -2686,12 +2686,13 @@ end,nil)
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 local Text = [[
-W𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚜𝚘𝚞𝚛𝚌𝚎 𝚊𝚟𝚕𝚛𝚊 ⶄ
-𝚝𝚑𝚎 𝚋𝚎𝚜𝚝 𝚜𝚘𝚞𝚛𝚌𝚎 𝚘𝚗 𝚝𝚎𝚕𝚎𝚐𝚛𝚊𝚖 ༗⬇
+🇨🇵 سورس افايره بلص🇫🇷
+اتبع الازرار إلى تحت ⬇️
+لدخول لحسابات السورس ⬇️
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/de_vi_d"}},
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/U880p"}},
 {{text = '⌯｟SＯＵＲＣＥ🇨🇵｠⌯', url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
@@ -2704,7 +2705,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/de_vi_d"}},
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/U880p"}},
 {{text = '⌯｟TＷＡＳＯＬ🇨🇵｠⌯',url="t.me/uu_ban25BOT"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
@@ -2719,7 +2720,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/de_vi_d"}},
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/U880p"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2852,7 +2853,7 @@ https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. 
 end
 if text == 'بوت التواصل' then
 local Text = [[ 
-[TWL](t.me/de_vi_d25BOT)
+[TWL](t.me/U880p25BOT)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
@@ -2864,11 +2865,11 @@ end
 
 if text == 'مبرمج السورس' then
 local Text = [[ 
-[BANDA](t.me/de_vi_d)
+[BANDA](t.me/U880p)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯', url="t.me/de_vi_d"}}, 
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯', url="t.me/U880p"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
