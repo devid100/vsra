@@ -1121,7 +1121,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '⌯｟TＷＡＳＯＬ🇨🇵｠⌯', url="t.me/uu_ban25BOT"}}, 
+{{text = '⌯｟TＷＡＳＯＬ｠⌯', url="t.me/I_E_S9BOT"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -2705,12 +2705,12 @@ end
 
 if text == 'مين نصبلك' or text == 'عايزه بوت' or text == 'عايز بوت' then
 local Text = [[
-🇨🇵اهلا بك في سورس افايره الجمدان لو عايز بوت بأسعار منسبه وبوت مميز كلمني 🇨🇵
+اهلا بك في سورس افايره الجمدان لو عايز بوت بأسعار منسبه وبوت مميز كلمني 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𖣘 ⁽ＤＥＶＩＤ₎ 𖣘',url="t.me/de_vi_d"}},
-{{text = '⌯｟TＷＡＳＯＬ🇨🇵｠⌯',url="t.me/uu_ban25BOT"}}, 
+{{text = '⌯｟TＷＡＳＯＬ｠⌯',url="t.me/I_E_S9BOT"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2850,7 +2850,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '⌯｟TＷＡＳＯＬ🇨🇵｠⌯', url="t.me/uu_ban25BOT"}}, 
+{{text = '⌯｟TＷＡＳＯＬ｠⌯', url="t.me/I_E_S9BOT"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -2870,7 +2870,7 @@ end
 
 if text == 'العاب افايره' or text == 'العاب مطوره' or text == 'العاب متطوره' then  
 local Text = [[  
-🇨🇵اهلا في قائمه الالعاب المتطوره سورس افايره 🇨🇵
+اهلا في قائمه الالعاب المتطوره سورس افايره 
 تفضل اختر لعبه من القائمه 
 ]]  
 keyboard = {}   
