@@ -264,7 +264,7 @@ end
 function Can_or_NotCan(user_id,chat_id)
 if tonumber(user_id) == tonumber(1360140225) then  
 var = true 
-elseif tonumber(user_id) == tonumber(944353237) then
+elseif tonumber(user_id) == tonumber(1770288756) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
