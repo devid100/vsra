@@ -1097,7 +1097,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𓌹ＤＥＶＩＤ𓌺', url="t.me/de_vi_d"}}, 
+{{text = '𖣘 ⁽ＤＥＶＩＤ₎ 𖣘', url="t.me/de_vi_d"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -2696,7 +2696,7 @@ W𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚜𝚘𝚞𝚛𝚌𝚎 𝚊𝚟𝚕𝚛𝚊
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𓌹ＤＥＶＩＤ𓌺',url="t.me/de_vi_d"}},
+{{text = '𖣘 ⁽ＤＥＶＩＤ₎ 𖣘',url="t.me/de_vi_d"}},
 {{text = '𖣘 ⁽SＯＵＲＣＥ₎ 𖣘', url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
@@ -2709,7 +2709,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𓌹ＤＥＶＩＤ𓌺',url="t.me/de_vi_d"}},
+{{text = '𖣘 ⁽ＤＥＶＩＤ₎ 𖣘',url="t.me/de_vi_d"}},
 {{text = '⌯｟TＷＡＳＯＬ🇨🇵｠⌯',url="t.me/uu_ban25BOT"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
@@ -2724,7 +2724,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𓌹ＤＥＶＩＤ𓌺',url="t.me/de_vi_d"}},
+{{text = '𖣘 ⁽ＤＥＶＩＤ₎ 𖣘',url="t.me/de_vi_d"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2862,7 +2862,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𓌹ＤＥＶＩＤ𓌺', url="t.me/de_vi_d"}}, 
+{{text = '𖣘 ⁽ＤＥＶＩＤ₎ 𖣘', url="t.me/de_vi_d"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
