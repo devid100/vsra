@@ -3770,8 +3770,8 @@ send(msg.chat_id_, msg.id_,' ✤ تم فتح التكرار')
 end
 --------------------------------------------------------------------------------------------------------------
 if text == 'تحديث' and DevSoFi(msg) then    
-dofile('DRAGON.lua')  
 send(msg.chat_id_, msg.id_, ' ✤ تم تحديث جميع الملفات') 
+dofile('DRAGON.lua')  
 end 
 if text == ("مسح قائمه العام") and DevSoFi(msg) then
 database:del(bot_id..'GBan:User')
@@ -8445,14 +8445,12 @@ return false
 end
 local link = database:get(bot_id.."Private:Group:Link"..msg.chat_id_)            
 if link then                              
-send(msg.chat_id_,msg.id_,'\n𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  𖠐
-≪━━━━━━𝐓𝐎𝐗━━━━━━≫\n ['..link..']')                          
+send(msg.chat_id_,msg.id_,'\n𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  𖠐\n≪━━━━━━𝐀𝐕𝐈𝐑𝐀━━━━━━≫\n ['..link..']')                          
 else                
 local linkgpp = json:decode(https.request('https://api.telegram.org/bot'..token..'/exportChatInviteLink?chat_id='..msg.chat_id_))
 if linkgpp.ok == true then 
 database:set(bot_id.."Private:Group:Link"..msg.chat_id_,linkgpp.result)
-linkgp = '\n𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  𖠐
-≪━━━━━━𝐓𝐎𝐗━━━━━━≫\n ['..linkgpp.result..']'
+linkgp = '\n𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  𖠐\n≪━━━━━━𝐀𝐕𝐈𝐑𝐀━━━━━━≫\n ['..linkgpp.result..']'
 else
 linkgp = ' ✤ لا يوجد رابط ارسل ضع رابط'
 end  
