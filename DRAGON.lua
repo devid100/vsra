@@ -1079,12 +1079,12 @@ end
 if text == 'تحديث السورس ' and DevSoFi(msg) then 
 os.execute('rm -rf DRAGON.lua')
 os.execute('wget https://raw.githubusercontent.com/devid100/vsra/main/DRAGON.lua')
-send(msg.chat_id_, msg.id_,' ✤ تم تحديث السورس \n ✤ لديك اخر اصدار لسورس افايره\n ✤ الاصدار ⤶ { v 1.5}')
+send(msg.chat_id_, msg.id_,' ✤ تم تحديث السورس \n ✤ لديك اخر اصدار لسورس افايره\n ✤ الاصدار ⤶ { v 7.0}')
 dofile('DRAGON.lua')  
 end
 if text == 'الاصدار ' and DevSoFi(msg) then 
 database:del(bot_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,' ✤ اصدار سورس افايره \n ✤ الاصدار ⤶{ v 1.5}')
+send(msg.chat_id_, msg.id_,' ✤ اصدار سورس افايره \n ✤ الاصدار ⤶{ v 7.0}')
 end
 if text == 'ديفيد مبرمج السورس' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
@@ -2404,7 +2404,7 @@ return false
 end
 os.execute('rm -rf DRAGON.lua')
 os.execute('wget https://raw.githubusercontent.com/devid100/vsra/main/DRAGON.lua')
-send(msg.chat_id_, msg.id_,' ✤ تم تحديث السورس \n ✤ لديك اخر اصدار لسورس افايره\n ✤ الاصدار ⤶ { v 1.5}')
+send(msg.chat_id_, msg.id_,' ✤ تم تحديث السورس \n ✤ لديك اخر اصدار لسورس افايره\n ✤ الاصدار ⤶ { v 7.0}')
 dofile('DRAGON.lua')  
 end
 
