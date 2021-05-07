@@ -297,7 +297,7 @@ return var
 end 
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(1360140225) then  
-var = ' مبـرمـج ســون'
+var = ' مبرمج السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif database:sismember(bot_id.."Dev:SoFi:2", user_id) then
@@ -667,7 +667,7 @@ end
 function Addmp3(msg,chat,kkl,ffrr)
 local eer = json:decode(https.request('https://api.telegram.org/bot'.. token..'/getfile?file_id='..kkl)) 
 download_to_file('https://api.telegram.org/file/bot'..token..'/'..eer.result.file_path,ffrr) 
-sendAudio(msg.chat_id_,msg.id_,'./'..ffrr,"🎼 𝒔𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒐𝒐𝒏")  
+sendAudio(msg.chat_id_,msg.id_,'./'..ffrr,"🎼 𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀")  
 os.execute('rm -rf ./'..ffrr) 
 end
 function Addsticker(msg,chat,Sd,rre)
@@ -8295,7 +8295,7 @@ local text =
 ' }\n'..' ✤  الايدي ⤶ { '..idgp..
 ' }\n'..' ✤  الايدي بالصوره ⤶ { '..idph..
 ' }\n'..' ✤  الرفع ⤶ { '..setadd..
-' }\n'..' ✤  الحظر ⤶ { '..banm..' }\n\n𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘\n ✤ قناة سورس افايره ↓\n [ 𝒔𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒐𝒐𝒏](t.me/A_V_I_R_A_1) \n'
+' }\n'..' ✤  الحظر ⤶ { '..banm..' }\n\n𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘\n ✤ قناة سورس افايره ↓\n [ 𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀](t.me/A_V_I_R_A_1) \n'
 send(msg.chat_id_, msg.id_,text)     
 end
 if text ==('تثبيت') and msg.reply_to_message_id_ ~= 0 and Mod(msg) then  
@@ -10044,7 +10044,7 @@ if audios.Info == true then
 local Text ='✤تم اختيار المقطع الصوتي لك'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝒔𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒐𝒐𝒏.',url="t.me/A_V_I_R_A_1"}},
+{{text = '𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀.',url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice='..URL.escape(audios.info)..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -12834,7 +12834,7 @@ end
 local Text =[[
 اتبع الازرار تحت ⇣
 واستمتع للأوامر 🕹️
-🎄[𝐒𝐎𝐎𝐍 𝐏𝐋𝐔𝐒](t.me/A_V_I_R_A_1)🎄
+🎄[𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌](t.me/A_V_I_R_A_1)🎄
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -12879,7 +12879,7 @@ local Text =[[
 *يمكنك تصفح الاضافات من خلال*
 *الكيبورد الموجود في الأسفل*
 𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘
-[ 𝒔𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒐𝒐𝒏 ](t.me/A_V_I_R_A_1)
+[ 𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀 ](t.me/A_V_I_R_A_1)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -12890,7 +12890,7 @@ keyboard.inline_keyboard = {
 {text = 'تنبيه المعرف', callback_data="/change-id"},{text = 'تنبيه الصور', callback_data="/change-photo"},
 },
 {
-{text = ' 𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙾𝙾𝙽', url="t.me/A_V_I_R_A_1"},
+{text = ' 𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀', url="t.me/A_V_I_R_A_1"},
 
 },
 }
@@ -12917,7 +12917,7 @@ for k,v in pairs(zx.ok) do
 i = i + 1
 t = t..i.."-  "..v.." \n"
 end
-send(msg.chat_id_, msg.id_, t..'𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘\n✤ [ 𝒔𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒐𝒐𝒏 ](t.me/A_V_I_R_A_1)')
+send(msg.chat_id_, msg.id_, t..'𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘\n✤ [ 𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀 ](t.me/A_V_I_R_A_1)')
 end
 if text == "تعطيل الابراج" and Manager(msg) then
 send(msg.chat_id_, msg.id_, '✤ تم تعطيل الابراج')
@@ -13124,7 +13124,7 @@ local Teext =[[
 🎄الجهات
 🎄الاشعارات
 𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘
-🎄[𝐒𝐎𝐎𝐍 𝐏𝐋𝐔𝐒](t.me/A_V_I_R_A_1)🎄
+🎄[𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌](t.me/A_V_I_R_A_1)🎄
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -13183,7 +13183,7 @@ local Teext =[[
 🎄اوامر التسليه
 🎄صورتي 
 𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘
-🎄[𝐒𝐎𝐎𝐍 𝐏𝐋𝐔𝐒](t.me/A_V_I_R_A_1)🎄
+🎄[𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌](t.me/A_V_I_R_A_1)🎄
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -13252,7 +13252,7 @@ local Teext =[[
 𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘
 🎄الاوامر المضافه ( لعرض الاوامر المضافه ) 
 𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘
-🎄[𝐒𝐎𝐎𝐍 𝐏𝐋𝐔𝐒](t.me/A_V_I_R_A_1)🎄
+🎄[𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌](t.me/A_V_I_R_A_1)🎄
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -13354,7 +13354,7 @@ local Teext =[[
 🎄الساعه
 🎄التاريخ
 𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘
-🎄[𝐒𝐎𝐎𝐍 𝐏𝐋𝐔𝐒](t.me/A_V_I_R_A_1)🎄
+🎄[𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌](t.me/A_V_I_R_A_1)🎄
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -13446,7 +13446,7 @@ local Teext =[[
 🎄تفعيل/تعطيل المغادره
 🎄مسح الجروبات
 𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘
-🎄[𝐒𝐎𝐎𝐍 𝐏𝐋𝐔𝐒](t.me/A_V_I_R_A_1)🎄
+🎄[𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌](t.me/A_V_I_R_A_1)🎄
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -13499,7 +13499,7 @@ local Teext =[[
 🎄شنو رئيك بهاي بالرد
 🎄تحب هذا
 𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘
-🎄[𝐒𝐎𝐎𝐍 𝐏𝐋𝐔𝐒](t.me/A_V_I_R_A_1)🎄
+🎄[𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌](t.me/A_V_I_R_A_1)🎄
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -13573,7 +13573,7 @@ local Teext =[[
 🎄تاك للمتزوجين
 🎄مسح المتزوجين
 𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘
-🎄[𝐒𝐎𝐎𝐍 𝐏𝐋𝐔𝐒](t.me/A_V_I_R_A_1)🎄
+🎄[𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌](t.me/A_V_I_R_A_1)🎄
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -13601,7 +13601,7 @@ end
 local Teext =[[
 اتبع الازرار تحت ⇣
 واستمتع للأوامر 🕹️
-🎄[𝐒𝐎𝐎𝐍 𝐏𝐋𝐔𝐒](t.me/A_V_I_R_A_1)🎄
+🎄[𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌](t.me/A_V_I_R_A_1)🎄
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -13649,7 +13649,7 @@ keyboard.inline_keyboard = {
 {text = ' القائمة الرئيسيه ', callback_data="/add"},
 },
 {
-{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙾𝙾𝙽', url="t.me/A_V_I_R_A_1"},
+{text = '𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀', url="t.me/A_V_I_R_A_1"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13682,7 +13682,7 @@ keyboard.inline_keyboard = {
 {text = ' القائمة الرئيسيه ', callback_data="/add"},
 },
 {
-{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙾𝙾𝙽', url="t.me/A_V_I_R_A_1"},
+{text = '𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀', url="t.me/A_V_I_R_A_1"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13712,7 +13712,7 @@ keyboard.inline_keyboard = {
 {text = ' القائمة الرئيسيه ', callback_data="/add"},
 },
 {
-{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙾𝙾𝙽', url="t.me/A_V_I_R_A_1"},
+{text = '𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀', url="t.me/A_V_I_R_A_1"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13742,7 +13742,7 @@ keyboard.inline_keyboard = {
 {text = ' القائمة الرئيسيه ', callback_data="/add"},
 },
 {
-{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙾𝙾𝙽', url="t.me/A_V_I_R_A_1"},
+{text = '𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀', url="t.me/A_V_I_R_A_1"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13772,7 +13772,7 @@ keyboard.inline_keyboard = {
 {text = ' القائمة الرئيسيه ', callback_data="/add"},
 },
 {
-{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙾𝙾𝙽', url="t.me/A_V_I_R_A_1"},
+{text = '𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀', url="t.me/A_V_I_R_A_1"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13793,7 +13793,7 @@ local Teext =[[
 *يمكنك تصفح الاضافات من خلال*
 *الكيبورد الموجود في الأسفل*
 𖣘 ⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎ 𖣘
-[ 𝒔𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒐𝒐𝒏 ](t.me/A_V_I_R_A_1)
+[ 𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀 ](t.me/A_V_I_R_A_1)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -13804,7 +13804,7 @@ keyboard.inline_keyboard = {
 {text = 'تنبيه المعرف', callback_data="/change-id"},{text = 'تنبيه الصور', callback_data="/change-photo"},
 },
 {
-{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙾𝙾𝙽', url="t.me/A_V_I_R_A_1"},
+{text = '𝐒𝐎𝐔𝐑𝐂𝐄⁦ 𝐀𝐕𝐈𝐑𝐀', url="t.me/A_V_I_R_A_1"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
