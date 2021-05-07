@@ -2693,7 +2693,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𓌹ＤＥＶＩＤ𓌺',url="t.me/de_vi_d"}},
-{{text = '⌯｟SＯＵＲＣＥ🇨🇵｠⌯', url="t.me/A_V_I_R_A_1"}},
+{{text = '𖣘 ⁽SＯＵＲＣＥ₎ 𖣘', url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2712,7 +2712,7 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
-if text == 'ديفيد' or text == 'Banda' or text == 'banda' then
+if text == 'ديفيد' or text == 'Devid' or text == 'Devid' then
 local Text = [[
 المبرمج ديفيد لو حابب تتواصل معاه
 اتبع الزر إلى تحت ⬇️
@@ -2846,7 +2846,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '⌯｟SＯＵＲＣＥ🇨🇵｠⌯', url="t.me/A_V_I_R_A_1"}}, 
+{{text = '𖣘 ⁽SＯＵＲＣＥ₎ 𖣘', url="t.me/A_V_I_R_A_1"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -2865,7 +2865,7 @@ end
 
 if text == 'مبرمج السورس' then
 local Text = [[ 
-[BANDA](t.me/de_vi_d)
+[Devid](t.me/de_vi_d)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
@@ -2907,7 +2907,7 @@ keyboard.inline_keyboard = {
 {{text = 'SpaceTraveler', url="https://t.me/gamee?game=SpaceTraveler"},{text = 'RedAndBlue', url="https://t.me/gamee?game=RedAndBlue"}},  
 {{text = 'SkodaHockey1 ', url="https://t.me/gamee?game=SkodaHockey1"},{text = 'SummerLove', url="https://t.me/gamee?game=SummerLove"}},  
 {{text = 'SmartUpShark', url="https://t.me/gamee?game=SmartUpShark"},{text = 'SpikyFish3', url="https://t.me/gamee?game=SpikyFish3"}},  
-{{text = '⌯｟SＯＵＲＣＥ🇨🇵｠⌯', url="t.me/A_V_I_R_A_1"}},
+{{text = '𖣘 ⁽SＯＵＲＣＥ₎ 𖣘', url="t.me/A_V_I_R_A_1"}},
 }  
 local msg_id = msg.id_/2097152/0.5  
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
