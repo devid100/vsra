@@ -1068,11 +1068,11 @@ HardDisk=`df -lh | awk '{if ($6 == "/") { print $3"/"$2" ~ {"$5"}" }}'`
 CPUPer=`top -b -n1 | grep "Cpu(s)" | awk '{print $2 + $4}'`
 uptime=`uptime | awk -F'( |,|:)+' '{if ($7=="min") m=$6; else {if ($7~/^day/) {d=$6;h=$8;m=$9} else {h=$6;m=$7}}} {print d+0,"days,",h+0,"hours,",m+0,"minutes."}'`
 echo '⇗ نظام التشغيل ⇖•\n*⤶⤶ '"$linux_version"'*' 
-echo '*—————𝗦𝗢𝗢𝗡——————~*\n✤✔{ الذاكره العشوائيه } ⇎\n*⤶⤶ '"$memUsedPrc"'*'
-echo '*—————𝗦𝗢𝗢𝗡——————~*\n✤✔{ وحـده الـتـخـزيـن } ⇎\n*⤶⤶ '"$HardDisk"'*'
-echo '*—————𝗦𝗢𝗢𝗡——————~*\n✤✔{ الـمــعــالــج } ⇎\n*⤶⤶ '"`grep -c processor /proc/cpuinfo`""Core ~ {$CPUPer%} "'*'
-echo '*—————𝗦𝗢𝗢𝗡——————~*\n✤✔{ الــدخــول } ⇎\n*⤶⤶ '`whoami`'*'
-echo '*—————𝗦𝗢𝗢𝗡——————~*\n✤✔{ مـده تـشغيـل الـسـيـرفـر }⇎\n*⤶⤶ '"$uptime"'*'
+echo '*—————⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎——————~*\n✤✔{ الذاكره العشوائيه } ⇎\n*⤶⤶ '"$memUsedPrc"'*'
+echo '*—————⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎——————~*\n✤✔{ وحـده الـتـخـزيـن } ⇎\n*⤶⤶ '"$HardDisk"'*'
+echo '*—————⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎——————~*\n✤✔{ الـمــعــالــج } ⇎\n*⤶⤶ '"`grep -c processor /proc/cpuinfo`""Core ~ {$CPUPer%} "'*'
+echo '*—————⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎——————~*\n✤✔{ الــدخــول } ⇎\n*⤶⤶ '`whoami`'*'
+echo '*—————⁽𝐀𝐕𝐈𝐑𝐀 𝐓𝐄𝐀𝐌₎——————~*\n✤✔{ مـده تـشغيـل الـسـيـرفـر }⇎\n*⤶⤶ '"$uptime"'*'
 ]]):read('*all'))  
 end
 
@@ -1089,11 +1089,11 @@ end
 if text == 'ديفيد مبرمج السورس' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-[DEV BANDA](t.me/U880p)
+[DEV DEVID](t.me/de_vi_d)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯', url="t.me/U880p"}}, 
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯', url="t.me/de_vi_d"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -1113,7 +1113,7 @@ end
 if text == 'بوت تواصل' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-[TWL](t.me/U880p25BOT)
+[TWL](t.me/de_vi_d25BOT)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
@@ -2692,7 +2692,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/U880p"}},
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/de_vi_d"}},
 {{text = '⌯｟SＯＵＲＣＥ🇨🇵｠⌯', url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
@@ -2705,7 +2705,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/U880p"}},
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/de_vi_d"}},
 {{text = '⌯｟TＷＡＳＯＬ🇨🇵｠⌯',url="t.me/uu_ban25BOT"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
@@ -2720,7 +2720,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/U880p"}},
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯',url="t.me/de_vi_d"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2853,7 +2853,7 @@ https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. 
 end
 if text == 'بوت التواصل' then
 local Text = [[ 
-[TWL](t.me/U880p25BOT)
+[TWL](t.me/de_vi_d25BOT)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
@@ -2865,11 +2865,11 @@ end
 
 if text == 'مبرمج السورس' then
 local Text = [[ 
-[BANDA](t.me/U880p)
+[BANDA](t.me/de_vi_d)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯', url="t.me/U880p"}}, 
+{{text = '⌯｟BＡＮＤＡ🇨🇵｠⌯', url="t.me/de_vi_d"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
