@@ -1093,7 +1093,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𓌹ＤＥＶＩＤ𓌺', url="t.me/de_vi_d"}}, 
+{{text = '𖣘 ⁽ＤＥＶＩＤ₎ 𖣘', url="t.me/de_vi_d"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -2686,13 +2686,12 @@ end,nil)
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 local Text = [[
-🇨🇵 سورس افايره بلص🇫🇷
-اتبع الازرار إلى تحت ⬇️
-لدخول لحسابات السورس ⬇️
+W𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚜𝚘𝚞𝚛𝚌𝚎 𝚊𝚟𝚕𝚛𝚊 ⶄ
+𝚝𝚑𝚎 𝚋𝚎𝚜𝚝 𝚜𝚘𝚞𝚛𝚌𝚎 𝚘𝚗 𝚝𝚎𝚕𝚎𝚐𝚛𝚊𝚖 ༗
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𓌹ＤＥＶＩＤ𓌺',url="t.me/de_vi_d"}},
+{{text = '𖣘 ⁽ＤＥＶＩＤ₎ 𖣘',url="t.me/de_vi_d"}},
 {{text = '𖣘 ⁽SＯＵＲＣＥ₎ 𖣘', url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
@@ -2705,7 +2704,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𓌹ＤＥＶＩＤ𓌺',url="t.me/de_vi_d"}},
+{{text = '𖣘 ⁽ＤＥＶＩＤ₎ 𖣘',url="t.me/de_vi_d"}},
 {{text = '⌯｟TＷＡＳＯＬ🇨🇵｠⌯',url="t.me/uu_ban25BOT"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
@@ -2720,7 +2719,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𓌹ＤＥＶＩＤ𓌺',url="t.me/de_vi_d"}},
+{{text = '𖣘 ⁽ＤＥＶＩＤ₎ 𖣘',url="t.me/de_vi_d"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2869,7 +2868,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𓌹ＤＥＶＩＤ𓌺', url="t.me/de_vi_d"}}, 
+{{text = '𖣘 ⁽ＤＥＶＩＤ₎ 𖣘', url="t.me/de_vi_d"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -8454,12 +8453,14 @@ return false
 end
 local link = database:get(bot_id.."Private:Group:Link"..msg.chat_id_)            
 if link then                              
-send(msg.chat_id_,msg.id_,'\n◤━───━𝘀𝗼𝗼𝗼𝗻━───━◥\n ['..link..']')                          
+send(msg.chat_id_,msg.id_,'\n𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  𖠐
+≪━━━━━━𝐓𝐎𝐗━━━━━━≫\n ['..link..']')                          
 else                
 local linkgpp = json:decode(https.request('https://api.telegram.org/bot'..token..'/exportChatInviteLink?chat_id='..msg.chat_id_))
 if linkgpp.ok == true then 
 database:set(bot_id.."Private:Group:Link"..msg.chat_id_,linkgpp.result)
-linkgp = '\n◤━───━𝘀𝗼𝗼𝗼𝗻━───━◥\n ['..linkgpp.result..']'
+linkgp = '\n𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  𖠐
+≪━━━━━━𝐓𝐎𝐗━━━━━━≫\n ['..linkgpp.result..']'
 else
 linkgp = ' ✤ لا يوجد رابط ارسل ضع رابط'
 end  
