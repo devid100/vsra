@@ -3823,7 +3823,7 @@ if tonumber(result.sender_user_id_) == tonumber(1360140225) then
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1609173922) then  
+if tonumber(result.sender_user_id_) == tonumber(1770288756) then  
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
@@ -3869,7 +3869,7 @@ if result.id_ == tonumber(1360140225) then
 send(msg.chat_id_, msg.id_, " ✤ لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1609173922) then
+if result.id_ == tonumber(1770288756) then
 send(msg.chat_id_, msg.id_, " ✤ لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
@@ -3909,7 +3909,7 @@ if tonumber(userid) == tonumber(1360140225) then
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(1609173922) then  
+if tonumber(userid) == tonumber(1770288756) then  
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
@@ -3950,7 +3950,7 @@ if tonumber(result.sender_user_id_) == tonumber(1360140225) then
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1609173922) then  
+if tonumber(result.sender_user_id_) == tonumber(1770288756) then  
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
@@ -3995,7 +3995,7 @@ if result.id_ == tonumber(1360140225) then
 send(msg.chat_id_, msg.id_, " ✤ لا يمكنك كتم مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1609173922) then
+if result.id_ == tonumber(1770288756) then
 send(msg.chat_id_, msg.id_, " ✤ لا يمكنك كتم مبرمج السورس \n")
 return false 
 end
@@ -4035,7 +4035,7 @@ if tonumber(userid) == tonumber(1360140225) then
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(1609173922) then  
+if tonumber(userid) == tonumber(1770288756) then  
 send(msg.chat_id_, msg.id_, " ✤ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
