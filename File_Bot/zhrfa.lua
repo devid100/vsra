@@ -1,13 +1,6 @@
---[[
-
-│تم تطوير وبرمجة السورس من قبل باندا .
-│@uu_ban
-#-------------------------------------------------------------------
-]]
-
-local function bassoon(msg,MsgText)
-if msg.type ~= "pv" then
-if MsgText[1] == "زخرفه" then
+local function bassoon(msg,text)
+if msg.type ~= "UserBot" then
+if text == "زخرفه" then
 redis:setex(soon..":basselNow:"..msg.sender_user_id_,500,true)
 sendMsg(msg.chat_id_,msg.id_,"| حسننا , الان يمكنك ارسال الاسم ولبعض الرموز المميزه اكتب رموز")    
 return false
@@ -849,7 +842,7 @@ end
 end
 local function TextRes(msg)
 
-if msg.text and msg.type ~= "pv" and redis:get(soon..":basselNow:"..msg.sender_user_id_) then
+if msg.text and msg.type ~= "UserBot" and redis:get(soon..":basselNow:"..msg.sender_user_id_) then
 Text = msg.text
 redis:del(soon..":basselNow:"..msg.sender_user_id_)
 if utf8.len(msg.text) > 300 then
@@ -1678,24 +1671,3 @@ Text_bassoon = Text_bassoon.."`\n\n| اضغـط علـي الاسـم ليتـم
 sendMsg(msg.chat_id_,msg.id_,Text_bassoon)
 return false
 end
-
-
-
-end
-
-return {
-soon = {
-"^(زخرفه)$"
- },
- isoon = bassoon,
- dsoon = TextRes,
- }
- 
- 
-
---[[
-████
-│تم تطوير من قبل باندا.
-│@uu_ban
-#-------------------------------------------------------------------
-]]
