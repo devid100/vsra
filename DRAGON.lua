@@ -156,7 +156,6 @@ io.popen("mkdir File_Bot")
 io.popen("cd File_Bot && rm -rf commands.lua.1") 
 io.popen("cd File_Bot && rm -rf commands.lua.2") 
 io.popen("cd File_Bot && rm -rf commands.lua.3") 
-io.popen("cd File_Bot && wget https://raw.githubusercontent.com/devid100/vsra/main/File_Bot/commands.lua") 
 t = "\27[35m".."\nAll Files Started : \n____________________\n"..'\27[m'
 i = 0
 for v in io.popen('ls File_Bot'):lines() do
@@ -4203,7 +4202,7 @@ if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
 if Get_info then
-local TextS = "\n ✤ اهلا بك في متجر ملفات افايره\n ✤ ملفات السورس ↓\n≪◤━───━??𝗼𝗼𝗼𝗻━───━◥≫\n\n"
+local TextS = "\n ✤ اهلا بك في متجر ملفات افايره\n ✤ ملفات السورس ↓\n⩹━━━━━━𝐀𝐕𝐈𝐑𝐀━━━━━━⩺\n\n"
 local TextE = "\n⩹━━━━━━𝐀𝐕𝐈𝐑𝐀━━━━━━⩺\n ✤ علامة تعني { ✔️ } ملف مفعل\n ✤ علامة تعني { ✖ } ملف معطل\n ✤ قناة سورس افايره ↓\n".." ✤ [اضغط هنا لدخول](t.me/A_V_I_R_A_1) \n"
 local NumFile = 0
 for name,Info in pairs(res.plugins_) do
