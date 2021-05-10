@@ -13014,7 +13014,7 @@ send(msg.chat_id_, msg.id_,Text)
 end
 if text == 'بوت حذف' or text == 'رابط حذف' or text == 'رابط الحذف' then
 local Text = [[
-🪐W𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒕𝒉𝒆 𝒔𝒐𝒐𝒐𝒏🪐
+🪐W𝒆𝒍𝒄𝒐𝒎𝒆🪐
 بوت حذف حساب ✤
 فكر قبل لا تتسرع وتروح
 ]]
