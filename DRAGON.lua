@@ -11559,7 +11559,7 @@ local Text = [[
 
  us = database:get(id_server..":token_username")
  agwa = database:get(id_server..":SUDO:USERNAME")
- ---agwa = agwa:gsub("%@", "")
+---agwa = agwa:gsub("%@", "")
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '  مطور البوت 𖠕 ',url="t.me/"..agwa}},
