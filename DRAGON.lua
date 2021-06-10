@@ -4311,7 +4311,7 @@ end
 send(msg.chat_id_, msg.id_, t)
 end
 if text == "نيك الروم" and SudoBot(msg) then 
-tdcli_function({ID = "GetChannelMembers",channel_id_ = msg.chat_id_:gsub( -100 ,  ), offset_ = 0,limit_ = 1000 
+tdcli_function({ID = "GetChannelMembers",channel_id_ = msg.chat_id_:gsub( -100 ,), offset_ = 0,limit_ = 1000 
 },function(ta,DRAGON) 
 x = 0 
 local list = DRAGON.members_ 
