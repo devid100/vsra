@@ -908,7 +908,7 @@ end
 if sudo2(msg) then
 local bl = '◉ مرحبا بك في اوامر المطور الجاهزه \n◉ [قناة السورس](t.me/bodywe58)'
 local keyboard = {
-{'ديفيد','دونجول'},
+{'بودي','ديفيد'},
 {'ضع اسم للبوت'},
 {'اوامر الاذاعه','اوامر التفعيل','اوامر التعطيل'},
 {'الاحصائيات'},
@@ -1179,7 +1179,7 @@ if text == 'الاصدار ' and sudo2(msg) then
 database:del(bot_id..'Srt:Bot') 
 send(msg.chat_id_, msg.id_,' ◉ اصدار سورس بودي { s: 6.7}')
 end
-if text == 'ديفيد مبرمج السورس' and sudo2(msg) then
+if text == 'بودي مبرمج السورس' and sudo2(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
 [DEV Devid](t.me/de_vi_d)
@@ -1192,7 +1192,7 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == 'ديفيد' and sudo2(msg) then
+if text == 'بودي' and sudo2(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
 𝐂𝐎𝐃𝐄𝐑 𝐒𝐎𝐔𝐑𝐂𝐄 ｂｏｄｙ 🪐
@@ -2852,10 +2852,10 @@ keyboard.inline_keyboard = {{{text = '  𓌹 ˹ＨＡＲＶＥＹ¹˼ 𓌺 ',url
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/hr_ba_1&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
-if text == 'دونجول' or text == "دونجل" then
+if text == 'ديفيد' or text == "دونجل" then
 local msg_id = msg.id_/2097152/0.5
 local Text = [[
- المبرمج دونجول
+ المبرمج ديفيد
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text = '  𓌹 ˹ＤＯＮＧＯＬ¹˼ 𓌺 ',url="t.me/UU_DO_N"}},}
@@ -2933,7 +2933,7 @@ local TWEET_Msg = {
 "روايتك المفضله ?", 
 "اخر اكله اكلتها", 
 "اخر كتاب قرآته", 
-"ليه ديفيد جدع؟ ", 
+"ليه بودي جدع؟ ", 
 "افضل يوم ف حياتك", 
 "ليه مضيفتش كل جهاتك", 
 "حكمتك ف الحياه", 
